@@ -1,0 +1,81 @@
+{
+  "perspectives": [
+    {
+      "baselineId": 30426,
+      "periodStart": 1293840000000,
+      "periodEnd": 1325375999999,
+      "currencyNodeId": 30458,
+      "periodType": 1
+    }
+  ],
+  "startnodes": [
+    {
+      "treeId": 502,
+      "nodeLocators": [
+        {
+          "nodeId": 2,
+          "treeId": 502,
+          "contentFormId": 502,
+          "validityPeriods": [
+            { "periodStart": 946684800000, "periodEnd": 4102444799000 }
+          ]
+        }
+      ]
+    },
+    {
+      "treeId": 501,
+      "nodeLocators": [
+        {
+          "nodeId": 7,
+          "treeId": 501,
+          "contentFormId": 501,
+          "validityPeriods": [
+            { "periodStart": 946684800000, "periodEnd": 4102444799000 }
+          ]
+        }
+      ]
+    }
+  ],
+  "requestedColumnNames": [],
+  "figureAggregation": [],
+  "startRow": 0,
+  "endRow": 25,
+  "rowGroupCols": [
+    {
+      "id": "RECTITLE",
+      "displayName": "Receiver",
+      "field": "RECTITLE"
+    }
+  ],
+  "valueCols": [
+    {
+      "id": "TURNOVER",
+      "aggFunc": "Σ",
+      "displayName": "Allocated costs (in EUR)",
+      "field": "TURNOVER"
+    },
+    {
+      "id": "VOLUME",
+      "aggFunc": "Σ",
+      "displayName": "Charged quantities",
+      "field": "VOLUME"
+    },
+    {
+      "id": "PRICE",
+      "aggFunc": "Σ",
+      "displayName": "Price (in EUR)",
+      "field": "PRICE"
+    }
+  ],
+  "pivotCols": [],
+  "pivotMode": false,
+  "groupKeys": [],
+  "filterModel": {},
+  "sortModel": [
+    {
+      "colId": "MONTH",
+      "sort": "asc"
+    }
+  ],
+  "highPrecision": true
+}

@@ -1,0 +1,8 @@
+<form [formGroup]="myForm" id="input-dropdown" class="form-style">
+  <!-- appAutoFocus - add this to input to use custom auto-focus directive-->
+  <input defFocus id="input-dropdown" [list-formatter]="autocompleListFormatter" type="text" class="form-control"
+    minlength="3" maxlength="20" ngui-auto-complete formControlName="gridDropdown" [source]="dropdownData"
+    value-property-name="id" display-property-name="name" placeholder=" Search" [(ngModel)]="value" #agInput />
+</form>
+
+<!-- {{ myForm.value | json }} -->

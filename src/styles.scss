@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ag-grid-community/dist/styles/ag-grid.css';
+@import '~ag-grid-community/dist/styles/ag-theme-balham.css';
+
+.ag-status-bar {
+  min-height: 35px;
+}
+
+.ngui-auto-complete ul {
+  height: 145px;
+  overflow-y: auto;
+}
+.ngui-auto-complete li {
+  border: none !important;
+}
+
+.ag-cell-focus,
+.ag-cell-no-focus {
+  border: none !important;
+}
+
+// .ag-cell-active {
+//   border: 1px solid red;
+// }
+// background-color: #fff;
+// .ag-unselectable {
+//   -webkit-user-select: none !important;
+//   -moz-user-select: none !important;
+//   -ms-user-select: none !important;
+//   user-select: none !important;
+// }
+
+// .ag-selectable {
+//   user-select: text !important;
+// }
